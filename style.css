@@ -1,0 +1,102 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(95, 91, 159);
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    min-height: 30px;
+    min-width: 50px;
+    border: none;
+    color: white;
+}
+
+
+button:active {
+    background-color: #A5A5A5;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+    transition: 3ms ease-in;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.col {
+    border-radius: 5px;
+    height: 100%;
+    padding: 1rem;
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px rgb(81, 81, 81);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex: 1
+}
+
+p.old {
+    color: gray;
+}
+
+p {
+    margin: 0;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.26);
+    font-weight: lighter;
+    text-align: end;
+    border: 1px solid gray;
+    border-radius: 5px;
+    min-height: 3rem;
+    margin: 5px;
+    padding: 0 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.text-white {
+    color: white;
+}
+
+
+
+
+.number {
+    background-color: #333333;
+}
+
+.symbol-header {
+    color: black;
+    background-color: #A5A5A5;
+}
+
+.symbol-side {
+    background-color: #FE9504;
+}
+
+.doble-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2
+}
