@@ -24,15 +24,13 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
 }
 
 
 
 .col {
     border-radius: 5px;
-    height: 100%;
     padding: 1rem;
     background-color: black;
     box-shadow: 1px 1px 1px 1px rgb(81, 81, 81);
@@ -85,12 +83,12 @@ p {
     background-color: #333333;
 }
 
-.symbol-header {
+.header {
     color: black;
     background-color: #A5A5A5;
 }
 
-.symbol-side {
+.side {
     background-color: #FE9504;
 }
 
